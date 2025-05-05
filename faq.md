@@ -19,7 +19,7 @@ The protocol swaps the collateral to the borrower’s chosen liability token (ty
 Providers post stablecoins upfront to guarantee the borrower’s upside exposure to the cap.
 
 ==- Why should providers use Votre?
-Because Votres are volatile bets and providers can monetize this volatility. They do this by offering terms to the user that contain a small spread, then monetizing this spread over the life of the trade. This technique is called “gamma scalping” and you can learn more about it here.
+Because Votres are volatile bets and providers can monetize this volatility. They do this by offering terms to the user that contain a small spread, then monetizing this spread over the life of the trade. This technique is called “gamma scalping” and you can learn more about it [here](https://www.schwab.com/learn/story/gamma-scalping-primer).
 
 ==- How do I know I’m getting the best price?
 Votre allows for open competition between providers onchain to provide the best offer. With every Votre request via the hosted frontend, users are shown competitive quotes before they can execute in order to promote best execution.
