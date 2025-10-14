@@ -20,6 +20,24 @@ These include sequencer downtime, MEV, or any other bespoke risk to any layer 2 
 Users, when repaying loans, must consider the liquidity of the market they are repaying into. If the Uni v3 pool is illiquid, slippage could eat up a large portion of repaid funds, leading to poor execution.
 ==-
 
+==- Oracle Risk
+Votre relies on Chainlink oracles to provide accurate, real-time pricing data for supported assets. If Chainlink experiences downtime, latency, or inaccurate price reporting (e.g., during extreme market volatility or network congestion), this could lead to incorrect valuations, mispriced loans, or temporarily halted operations.
+
+==- Market Risk
+Crypto asset prices are inherently volatile, and large swings in market value can affect user positions. Borrowers remain exposed to changes in the value of their collateral; if the market price of their pledged assets declines significantly, the user’s effective loan-to-value (LTV) ratio increases, potentially leading to loss of value upon repayment.
+
+!!!
+Note on mitigation: Votre’s non-liquidating design protects users from forced liquidations, but borrowers should still manage exposure responsibly.
+!!!
+
+==- Regulatory Risk
+DeFi lending protocols operate in a rapidly evolving regulatory environment. Changes in how digital assets, stablecoins, or decentralized credit markets are regulated could affect Votre’s operations or user accessibility in certain jurisdictions.
+
+!!!
+Note on mitigation: Votre maintains active dialogue with legal counsel across key jurisdictions and structures its entities in compliance with applicable laws. The protocol also adapts product design and disclosures as regulatory clarity improves.
+!!!
+
+
 ---
 
 ### Key Limitations
